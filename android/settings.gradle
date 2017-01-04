@@ -1,0 +1,5 @@
+rootProject.name = 'hifinds'
+
+include ':app'
+include ':react-native-android-slidingtabstrip'
+project(':react-native-android-slidingtabstrip').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-android-slidingtabstrip/android')
